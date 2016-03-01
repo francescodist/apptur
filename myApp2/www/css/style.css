@@ -1,0 +1,157 @@
+
+
+body {
+  text-align: center;
+}
+
+a{
+  color: black; !important
+}
+
+a:hover{
+  text-decoration: none; !important
+}
+
+h1, h2 {
+  color: white;
+  font-family: "sax-mono";
+}
+
+h3 {
+  font-size: 20px;
+
+}
+
+h4 {
+  white-space: pre;
+}
+
+.news-container {
+  background-color: #e2c4aa;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.prof-pic {
+  height: 250px;
+  width: 250px;
+}
+
+.pane {
+  background-color: #000066;
+
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+
+}
+
+.menu-icon:before {
+  color: white !important;
+  font-size: 15.5vmin !important;
+
+  height: 25vmin;
+  padding-top: 15vmin !important;
+}
+
+.menu-icon:after{
+  color: white !important;
+  font-size: 30vmin !important;
+
+  height: 25vmin;
+  padding-top: 15vmin !important;
+}
+
+.button-clear.menu-button {
+  min-height: 33.33vh !important;
+  margin-left: -1vmin;
+}
+
+.buttontry {
+  height: 15.5vmin;
+  background-color: green;
+}
+
+.button-bar {
+  height: 30vh !important;
+
+
+}
+
+
+
+.title {
+  color: white !important;
+}
+
+.back-button {
+  color: white !important;
+}
+
+.item-trns {
+  background-color: rgba(0,0,0,0.0) !important;
+  color: white !important;
+  border-top: 0px;
+  text-align: left;
+}
+
+.bar {
+  height: 44px !important;
+  z-index:900;
+}
+
+p {
+  color: white;
+}
+
+.fake-image {
+  height: auto;
+  width: 95vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+.flex-container-h {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+
+    margin-bottom: auto;
+}
+
+.flex-container-v {
+    display: -webkit-flex;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    background-color: lightgrey;
+}
+
+.flex-item {
+    background-color: green;
+     height: 30vmin;
+     width: 30vw;
+    margin: auto;
+}
+
+.tasto-home {
+  width:100%;
+  height: 80%;
+  background-color: lightblue;
+}
+
+.margine-top {
+  margin-top: auto;
+}
+
+.icona-home {
+  font-size: 20vmin;
+  overflow: auto !important;
+  position: relative
+  background-color: red;
+  z-index: 800;
+
+}
